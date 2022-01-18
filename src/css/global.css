@@ -1,0 +1,132 @@
+/* GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/*RESET DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* GENERAL VARIABLES*/
+:root {
+  --blue: #2c28b0; 
+  --light-blue: #91b3fa;
+  --orange: #ea5f5a;
+  --light-orange: #fe7062;
+  --grey: #444;
+  --borderRadius: 5px;
+  --boxShadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  --titleFont: 'Indie Flower' ;
+  --mainFont: 'Montserrat';
+}
+
+/*LAYOUT*/
+.row {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.inline-center {
+  justify-content: center;
+}
+
+.start {
+  justify-content: start;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+section {
+    position: relative;
+    top: 130px;
+}
+
+/*FONT*/
+h1, h2, h3, h4, h5, h6, p, ul, li, a, button {
+  padding: 10px;
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+h1 {
+    color: var(--light-blue);
+    font-family: var(--titleFont);
+    letter-spacing: 3px;
+    font-size: 30pt;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4, h5, h6, p, ul, li, a, button, textarea {
+    font-family: var(--mainFont);
+}
+
+button {
+    color: white;
+}
+
+h2 {
+    color: var(--light-blue);
+    font-family: var(--titleFont);
+    font-size: 24pt;
+}
+
+button {
+  padding: 20px;
+  transition-duration: 400ms;
+  background-color: var(--blue);
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  transition-duration: 400ms;
+  cursor: pointer;
+  background-color: var(--light-orange);
+}
+
+/*MARGIN AND BORDER*/
+
+.top {
+  margin-top: 20px;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.left {
+  margin-left: 20px;
+}
+
+/*POSITION AND DISPLAY*/
+
+.none {
+  display: none;
+}
+
+.absolute {
+  position: absolute;
+}
