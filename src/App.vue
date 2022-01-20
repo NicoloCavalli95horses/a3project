@@ -2,7 +2,7 @@
   <div id="nav">
     <div class="flex center">
       <Logo />
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Ciao</router-link> |
       <router-link to="/config">Interazione PDF con Webcam</router-link> |
       <router-link to="/gulpease">Strumenti per l'accessibilità</router-link>
     </div>

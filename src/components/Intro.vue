@@ -79,6 +79,10 @@ export default {
 </script>
 
 <style>
+#intro .space-around {
+  align-items: start;
+}
+
 .row:nth-child(2) {
   margin-top: 50px;
 }
